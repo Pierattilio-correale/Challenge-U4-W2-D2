@@ -21,6 +21,9 @@ int numeroRandom= scanner.nextInt();
          boolean boleano= scanner.nextBoolean();
 
         metodo.listaNumero3(lista, boleano);
+        //extra
+        boolean boleano2= scanner.nextBoolean();
+        metodo.listaNumero4(lista,boleano2);
 
 
     }

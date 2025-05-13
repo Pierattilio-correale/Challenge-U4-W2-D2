@@ -34,4 +34,13 @@ public class MetodoEsercizio2 {
             }
         }
     }
+    public void listaNumero4(ArrayList<Integer> lista, boolean n) {
+        for (int i = 0; i < lista.size(); i++) {
+            if (n && i % 2 == 0) { // n true → valori in posizioni pari
+                System.out.println(lista.get(i));
+            } else if (!n && i % 2 != 0) { // n false → valori in posizioni dispari
+                System.out.println(lista.get(i));
+            }
+        }
+    }
 }
