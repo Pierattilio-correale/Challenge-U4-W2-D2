@@ -1,5 +1,6 @@
 package esercizio1;
 
+import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Scanner;
 
@@ -7,7 +8,7 @@ public class Esercizio1 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         HashSet<String> paroleDiverse = new HashSet<>();
-        HashSet<String> paroleDuplicate = new HashSet<>();
+        ArrayList<String> paroleDuplicate = new ArrayList<>();
 
         System.out.println("Inserisci un numero n:");
         int numero = scanner.nextInt();
